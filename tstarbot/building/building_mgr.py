@@ -4,8 +4,8 @@ from __future__ import division
 from __future__ import print_function
 from random import choice
 
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import ABILITY_ID
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import ABILITY_ID
 
 from tstarbot.production_strategy.build_cmd import BuildCmdUnit
 from tstarbot.production_strategy.build_cmd import BuildCmdUpgrade

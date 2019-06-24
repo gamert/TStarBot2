@@ -1,8 +1,8 @@
 import math
 
 import numpy as np
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from pysc2.lib.typeenums import ABILITY_ID
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.typeenums import ABILITY_ID
 
 from tstarbot.data.pool.macro_def import COMBAT_ATTACK_UNITS
 from tstarbot.data.pool.macro_def import COMBAT_FLYING_UNITS

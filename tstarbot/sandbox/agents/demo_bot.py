@@ -5,8 +5,8 @@ from __future__ import print_function
 import numpy
 import random
 
-from pysc2.lib import actions
-from s2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib import actions
+from xs2clientprotocol import sc2api_pb2 as sc_pb
 import tstarbot as ts
 
 UNIT_TYPE_HATCHERY = 86

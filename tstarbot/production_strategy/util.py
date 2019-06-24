@@ -1,5 +1,5 @@
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import UPGRADE_ID
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UPGRADE_ID
 from collections import deque
 
 

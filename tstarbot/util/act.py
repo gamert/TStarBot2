@@ -1,7 +1,7 @@
 """ sc_pb action utilities """
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import ABILITY_ID
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import ABILITY_ID
 
 
 def act_build_by_self(builder_tag, ability_id):

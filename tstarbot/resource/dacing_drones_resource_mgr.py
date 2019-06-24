@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 import random
-from s2clientprotocol import sc2api_pb2 as sc_pb
+from xs2clientprotocol import sc2api_pb2 as sc_pb
 from tstarbot.resource.resource_mgr import BaseResourceMgr
 
 

@@ -4,9 +4,9 @@ from __future__ import division
 from __future__ import print_function
 import random
 
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from pysc2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, RACE
-from pysc2.lib import TechTree
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, RACE
+from pyxs2.lib import TechTree
 
 TT = TechTree()
 

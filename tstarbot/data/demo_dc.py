@@ -1,4 +1,4 @@
-import pysc2.lib.typeenums as tp
+import pyxs2.lib.typeenums as tp
 
 from tstarbot.data.pool.pool_base import PoolBase
 

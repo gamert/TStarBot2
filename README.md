@@ -1,6 +1,6 @@
 # TStarBot
 
-A rule-based Star Craft II bot. Compatible with `pysc2.agents`.
+A rule-based Star Craft II bot. Compatible with `pyxs2.agents`.
 
 ## Install
 cd to the folder and run the command:
@@ -10,17 +10,17 @@ pip install -e .
 
 ## Dependencies
 ```
-pysc2 (Use Tencent AI Lab fork, required!)
+pyxs2 (Use Tencent AI Lab fork, required!)
 pillow
 ```
 We recommend `pip install` each Python package.
 
 ## How to Run
-Run the agent using the scripts from `pysc2.bin`. 
+Run the agent using the scripts from `pyxs2.bin`. 
 Example:
 
 ```
-python -m pysc2.bin.agent \
+python -m pyxs2.bin.agent \
     --map AbyssalReef \
     --feature_screen_size 64 \
     --agent tstarbot.agents.zerg_agent.ZergAgent \
@@ -50,10 +50,10 @@ In particular, see how a well configured agent plays against
 difficulty-A (cheat_insane) builtin bot [here](docs/examples_evaluate.md#against-difficulty-a-builtin-bot). 
 
 ## Profiling
-Use `pysc2.lib.stopwatch` to profile the code. 
+Use `pyxs2.lib.stopwatch` to profile the code. 
 As an example, see `tstarbot/agents/micro_defeat_roaches_agent.py` and run the following command:
 ```
-python -m pysc2.bin.agent \
+python -m pyxs2.bin.agent \
     --map DefeatRoaches \
     --feature_screen_size 64 \
     --max_episodes 2 \
@@ -69,4 +69,4 @@ See examples [here](docs/examples_howtorun.md#ai-vs-ai) for AI-vs-AI and
 examples [here](docs/examples_howtorun.md#human-vs-ai) for Human-vs-AI.
 
 ## Coding Style
-Be consistent with that of `pysc2`.
+Be consistent with that of `pyxs2`.

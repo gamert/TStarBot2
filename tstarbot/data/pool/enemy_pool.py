@@ -5,7 +5,7 @@ from __future__ import print_function
 import collections
 import operator
 
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 import numpy as np
 
 from tstarbot.data.pool.pool_base import PoolBase

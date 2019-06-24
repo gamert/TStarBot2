@@ -1,10 +1,10 @@
 from enum import Enum
 from enum import unique
-from pysc2.lib.typeenums import RACE
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import ABILITY_ID
-from pysc2.lib.typeenums import UPGRADE_ID
-from pysc2.lib.typeenums import BUFF_ID
+from pyxs2.lib.typeenums import RACE
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import ABILITY_ID
+from pyxs2.lib.typeenums import UPGRADE_ID
+from pyxs2.lib.typeenums import BUFF_ID
 
 
 @unique

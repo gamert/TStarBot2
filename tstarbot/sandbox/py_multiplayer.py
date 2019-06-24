@@ -4,19 +4,19 @@ import sys
 import time
 import importlib
 
-from pysc2 import maps
-from pysc2.env import sc2_env
-from pysc2 import run_configs
-from pysc2.env import environment
-from pysc2.lib import features
-from pysc2.lib import point
-from pysc2.lib import run_parallel
-from pysc2.tests import utils
+from pyxs2 import maps
+from pyxs2.env import sc2_env
+from pyxs2 import run_configs
+from pyxs2.env import environment
+from pyxs2.lib import features
+from pyxs2.lib import point
+from pyxs2.lib import run_parallel
+from pyxs2.tests import utils
 import copy
 
-from s2clientprotocol import common_pb2 as sc_common
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from s2clientprotocol import debug_pb2
+from xs2clientprotocol import common_pb2 as sc_common
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from xs2clientprotocol import debug_pb2
 
 from tstarbot.agents.zerg_agent import ZergAgent
 
@@ -36,7 +36,7 @@ flags.DEFINE_bool("realtime", True, "Whether to run in real time.")
 flags.DEFINE_integer("step_mul", 8, "Game steps per agent step.")
 flags.DEFINE_float("sleep_time", 0.2, "Sleep time between agent steps.")
 
-flags.DEFINE_string("agent1", "pysc2.agents.random_agent.RandomAgent",
+flags.DEFINE_string("agent1", "pyxs2.agents.random_agent.RandomAgent",
                     "Which agent to run")
 flags.DEFINE_string("agent1_config", "",
                     "Agent's config in py file. Pass it as python module."

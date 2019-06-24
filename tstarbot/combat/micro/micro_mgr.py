@@ -1,4 +1,4 @@
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 
 from tstarbot.combat.micro.micro_base import MicroBase
 from tstarbot.combat.micro.roach_micro import RoachMgr

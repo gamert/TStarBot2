@@ -5,8 +5,8 @@ from __future__ import print_function
 import random
 from copy import deepcopy
 
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from pysc2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, RACE
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, RACE
 
 
 def collect_units(units, unit_type, owner=1):

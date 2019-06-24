@@ -4,7 +4,7 @@ from __future__ import division
 from __future__ import print_function
 
 from enum import Enum
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 from tstarbot.data.pool import macro_def as tm
 from tstarbot.data.pool.combat_pool import CombatUnitStatus
 

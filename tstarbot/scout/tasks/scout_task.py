@@ -1,5 +1,5 @@
-from s2clientprotocol import sc2api_pb2 as sc_pb
-import pysc2.lib.typeenums as tp
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+import pyxs2.lib.typeenums as tp
 from tstarbot.data.pool import macro_def as md
 
 SCOUT_BASE_RANGE = 10

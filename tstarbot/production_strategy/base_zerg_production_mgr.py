@@ -5,8 +5,8 @@ from __future__ import print_function
 import operator
 import distutils.version
 
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import UPGRADE_ID
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UPGRADE_ID
 
 from tstarbot.data.pool.macro_def import BASE_UNITS
 from tstarbot.util.geom import dist_to_pos

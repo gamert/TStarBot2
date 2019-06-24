@@ -1,4 +1,4 @@
-import pysc2.lib.typeenums as tp
+import pyxs2.lib.typeenums as tp
 from enum import Enum
 import numpy as np
 

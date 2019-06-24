@@ -9,7 +9,7 @@ from __future__ import print_function
 import random
 import math
 import numpy as np
-from s2clientprotocol import sc2api_pb2 as sc_pb
+from xs2clientprotocol import sc2api_pb2 as sc_pb
 from tstarbot.sandbox.bot_base import PoolBase, ManagerBase
 from tstarbot.sandbox.act_executor import ActExecutor
 

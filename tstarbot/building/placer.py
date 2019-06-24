@@ -8,7 +8,7 @@ from math import sin
 from math import atan2
 from random import uniform
 
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 
 from tstarbot.data.pool.map_tool import bitmap2array
 from tstarbot.util import collect_units_by_tags

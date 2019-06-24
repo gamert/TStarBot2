@@ -1,4 +1,4 @@
-from pysc2.env import sc2_env
+from pyxs2.env import sc2_env
 from tstarbot.sandbox.demo_bot import DemoBot
 from absl import app
 from absl import flags

@@ -2,19 +2,19 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from pysc2.lib import point
-from pysc2.lib import renderer_human
-from pysc2.lib import unit_controls
-from pysc2.lib import run_parallel
-from pysc2.lib import features
-from pysc2.env import environment
-from pysc2 import maps
-from pysc2 import run_configs
-from pysc2.env.sc2_env import races, difficulties
-from pysc2.lib.remote_controller import RequestError
+from pyxs2.lib import point
+from pyxs2.lib import renderer_human
+from pyxs2.lib import unit_controls
+from pyxs2.lib import run_parallel
+from pyxs2.lib import features
+from pyxs2.env import environment
+from pyxs2 import maps
+from pyxs2 import run_configs
+from pyxs2.env.sc2_env import races, difficulties
+from pyxs2.lib.remote_controller import RequestError
 
-from s2clientprotocol import common_pb2 as sc_common
-from s2clientprotocol import sc2api_pb2 as sc_pb
+from xs2clientprotocol import common_pb2 as sc_common
+from xs2clientprotocol import sc2api_pb2 as sc_pb
 
 from tstarbot.agents.dancing_drones_agent import DancingDronesAgent
 from tstarbot.agents.zerg_agent import ZergAgent
@@ -42,8 +42,8 @@ flags.DEFINE_integer("minimap_resolution", 64,
 flags.DEFINE_integer("max_step", 0, "Game steps per episode.")
 flags.DEFINE_integer("step_mul", 8, "Game steps per agent step.")
 
-flags.DEFINE_string("player1_agent", "pysc2.agents.random_agent.RandomAgent", "Which agent to run")
-flags.DEFINE_string("player2_agent", "pysc2.agents.random_agent.RandomAgent", "Which agent to run")
+flags.DEFINE_string("player1_agent", "pyxs2.agents.random_agent.RandomAgent", "Which agent to run")
+flags.DEFINE_string("player2_agent", "pyxs2.agents.random_agent.RandomAgent", "Which agent to run")
 flags.DEFINE_string("player1_agent_config", "",
                     "Agent's config in py file. Pass it as python module."
                     "E.g., tstarbot.agents.dft_config")

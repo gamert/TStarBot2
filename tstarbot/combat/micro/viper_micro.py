@@ -1,6 +1,6 @@
 import numpy as np
-from pysc2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, UPGRADE_ID
-from s2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.typeenums import UNIT_TYPEID, ABILITY_ID, UPGRADE_ID
+from xs2clientprotocol import sc2api_pb2 as sc_pb
 
 from tstarbot.combat.micro.micro_base import MicroBase
 from tstarbot.data.queue.combat_command_queue import CombatCmdType

@@ -99,7 +99,7 @@ python -m tstarbot.bin.eval_agent \
     --max_agent_episodes 15 \
     --map DefeatRoaches \
     --norender \
-    --agent1 pysc2.agents.scripted_agent.DefeatRoaches \
+    --agent1 pyxs2.agents.scripted_agent.DefeatRoaches \
     --screen_resolution 64 \
     --agent1_race T 
 ```

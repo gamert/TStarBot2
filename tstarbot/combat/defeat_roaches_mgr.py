@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from pysc2.agents import base_agent
+from pyxs2.agents import base_agent
 
 from tstarbot.combat.micro.micro_mgr import MicroBase
 

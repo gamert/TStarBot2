@@ -7,7 +7,7 @@ import random
 import numpy as np
 from enum import Enum
 
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 
 from tstarbot.combat_strategy.squad import Squad
 from tstarbot.combat_strategy.squad import SquadStatus, MutaliskSquadStatus

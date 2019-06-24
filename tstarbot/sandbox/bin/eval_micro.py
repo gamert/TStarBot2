@@ -1,4 +1,4 @@
-from pysc2.env import sc2_env
+from pyxs2.env import sc2_env
 from tstarbot.sandbox.agents.rule_micro_agent import MicroAgent
 from absl import app
 import os

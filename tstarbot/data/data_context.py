@@ -4,10 +4,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from s2clientprotocol import sc2api_pb2 as sc_pb
-from pysc2.lib.data_raw import data_raw_3_16
-from pysc2.lib.data_raw import data_raw_4_0
-from pysc2.lib import TechTree
+from xs2clientprotocol import sc2api_pb2 as sc_pb
+from pyxs2.lib.data_raw import data_raw_3_16
+from pyxs2.lib.data_raw import data_raw_4_0
+from pyxs2.lib import TechTree
 
 from tstarbot.data.queue.build_command_queue import BuildCommandQueue
 from tstarbot.data.queue.build_command_queue import BuildCommandQueueV2

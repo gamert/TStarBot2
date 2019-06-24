@@ -3,8 +3,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from pysc2.lib.typeenums import UNIT_TYPEID
-from pysc2.lib.typeenums import UPGRADE_ID
+from pyxs2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UPGRADE_ID
 from tstarbot.production_strategy.base_zerg_production_mgr import ZergBaseProductionMgr
 from tstarbot.production_strategy.util import unique_unit_count
 

@@ -6,8 +6,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from pysc2.agents import base_agent
-from pysc2.lib import stopwatch
+from pyxs2.agents import base_agent
+from pyxs2.lib import stopwatch
 
 from tstarbot.combat import DefeatRoachesCombatMgr
 from tstarbot.data.demo_dc import DefeatRoaches

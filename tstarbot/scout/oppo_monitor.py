@@ -1,5 +1,5 @@
 from __future__ import print_function
-import pysc2.lib.typeenums as tp
+import pyxs2.lib.typeenums as tp
 
 import tstarbot.data.pool.opponent_pool as op
 

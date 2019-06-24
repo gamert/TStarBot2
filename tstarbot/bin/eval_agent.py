@@ -1,4 +1,4 @@
-"""evaluate an agent. Adopted from pysc2.bin.agent"""
+"""evaluate an agent. Adopted from pyxs2.bin.agent"""
 
 from __future__ import absolute_import
 from __future__ import division
@@ -6,9 +6,9 @@ from __future__ import print_function
 import importlib
 import time
 
-from pysc2 import maps
-from pysc2.env import sc2_env
-from pysc2.lib import stopwatch
+from pyxs2 import maps
+from pyxs2.env import sc2_env
+from pyxs2.lib import stopwatch
 from absl import app
 from absl import flags
 

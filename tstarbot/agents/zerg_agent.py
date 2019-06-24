@@ -5,7 +5,7 @@ from __future__ import print_function
 import importlib
 from time import sleep
 
-from pysc2.agents import base_agent
+from pyxs2.agents import base_agent
 
 from tstarbot.combat_strategy.combat_strategy_mgr import ZergStrategyMgr
 from tstarbot.production_strategy.production_mgr import ZergProductionMgr

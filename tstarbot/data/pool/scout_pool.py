@@ -1,6 +1,6 @@
 from tstarbot.data.pool.pool_base import PoolBase
 from tstarbot.data.pool import macro_def as md
-from pysc2.lib.typeenums import UNIT_TYPEID
+from pyxs2.lib.typeenums import UNIT_TYPEID
 from tstarbot.data.pool.worker_pool import EmployStatus
 from tstarbot.data.pool.combat_pool import CombatUnitStatus
 import queue
